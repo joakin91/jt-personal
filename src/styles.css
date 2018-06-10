@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body.my-app, app-root{
+    font-family: 'Playfair Display', serif;
+    /* sticky footer properties */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.my-app main{
+    /* sticky footer properties */
+    flex: 1 0 auto;
+}
+
+.my-app nav{
+    box-shadow: none;
+}
+
+.my-app footer .footer-copyright{
+    background-color: transparent;
+}
+
