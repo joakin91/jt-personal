@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-##Personal notes
+## Personal notes
 
 To create a new section:
 
@@ -35,6 +35,6 @@ To create a new section:
 1. Add it to the router `app-routing.module.ts`.
 1. If you want to add it to the menu add it to the menuItems array in the `app.component.ts` file.
 
-##Spec files
+## Spec files
 
 No testing has been done, spec files need to be refactored and tests need to be implemented in the working flow.
